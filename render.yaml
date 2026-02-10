@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: vdo-script-gemini-web
+    env: docker
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
