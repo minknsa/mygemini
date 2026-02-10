@@ -3,4 +3,7 @@ uvicorn[standard]==0.30.6
 gradio==4.44.0
 google-genai==1.29.0
 yt-dlp==2025.1.26
+
+# Whisper needs torch – pin CPU wheel
+torch==2.3.1
 openai-whisper==20240930
